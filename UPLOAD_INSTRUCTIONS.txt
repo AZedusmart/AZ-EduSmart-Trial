@@ -1,0 +1,17 @@
+KEMASKINI WEBSITE PROMOSI v1.1
+================================
+
+TUJUAN
+Semua butang “Cuba AZ EduSmart” kini membuka:
+https://azedusmart.github.io/AZ-EduSmart-Trial/
+
+CARA UPDATE
+1. Pastikan AZ-EduSmart-Trial sudah berjaya deploy dahulu.
+2. Buka repository AZ-EduSmart-Promo.
+3. Gantikan fail index.html di root dengan index.html dalam pakej ini.
+4. Commit changes.
+5. Tunggu Actions > pages build and deployment bertanda hijau.
+6. Buka website promosi dan tekan Ctrl+F5.
+7. Uji semua butang “Cuba trial”.
+
+Aplikasi penuh tidak lagi dipautkan daripada website promosi.
