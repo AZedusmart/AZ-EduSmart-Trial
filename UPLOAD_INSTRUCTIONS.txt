@@ -1,17 +1,32 @@
-KEMASKINI WEBSITE PROMOSI v1.1
-================================
+AZ EDUSMART TRIAL v1.1 — SINGLE FILE FIX
+==========================================
 
-TUJUAN
-Semua butang “Cuba AZ EduSmart” kini membuka:
-https://azedusmart.github.io/AZ-EduSmart-Trial/
+PUNCA MASALAH
+Repository AZ-EduSmart-Trial menggunakan index.html website promosi.
+Butang “Cuba Trial” menghala ke URL halaman yang sama, jadi tiada perubahan kelihatan.
 
-CARA UPDATE
-1. Pastikan AZ-EduSmart-Trial sudah berjaya deploy dahulu.
-2. Buka repository AZ-EduSmart-Promo.
-3. Gantikan fail index.html di root dengan index.html dalam pakej ini.
-4. Commit changes.
-5. Tunggu Actions > pages build and deployment bertanda hijau.
-6. Buka website promosi dan tekan Ctrl+F5.
-7. Uji semua butang “Cuba trial”.
+CARA BETULKAN — HANYA SATU FAIL
+1. Extract ZIP ini.
+2. Buka repository GitHub: AZ-EduSmart-Trial.
+3. Klik fail index.html.
+4. Klik ikon tong sampah / Delete this file.
+5. Commit changes.
+6. Kembali ke halaman utama repository.
+7. Klik Add file > Upload files.
+8. Upload index.html daripada pakej ini.
+9. Commit changes.
+10. Pergi ke Actions dan tunggu pages build and deployment bertanda hijau.
+11. Buka:
+    https://azedusmart.github.io/AZ-EduSmart-Trial/?v=1.1
+12. Tekan Ctrl+F5.
 
-Aplikasi penuh tidak lagi dipautkan daripada website promosi.
+HASIL YANG BETUL
+- Paparan gelap bertajuk AZ EduSmart Trial.
+- Pilihan Tingkatan 1 dan Tingkatan 2.
+- Enam kad subjek.
+- Satu modul percubaan setiap subjek.
+- 20 soalan dan Explain Mode.
+- Modul lain berkunci.
+
+Fail ini tidak memerlukan folder assets, css atau js kerana semuanya telah dimasukkan
+terus ke dalam index.html.

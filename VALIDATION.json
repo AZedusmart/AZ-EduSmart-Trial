@@ -1,6 +1,19 @@
 {
   "status": "LULUS",
-  "trial_link": "https://azedusmart.github.io/AZ-EduSmart-Trial/",
-  "full_app_link_removed": true,
+  "version": "1.1",
+  "deployment_files_required": [
+    "index.html"
+  ],
+  "checks": {
+    "single_file": true,
+    "trial_title": true,
+    "subject_grid": true,
+    "trial_modules_data": true,
+    "quiz_engine": true,
+    "locked_modules": true,
+    "twenty_questions_text": true,
+    "no_external_local_files": true
+  },
+  "javascript_syntax": "LULUS",
   "zip_integrity": "LULUS"
 }
